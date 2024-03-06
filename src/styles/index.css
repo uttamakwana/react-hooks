@@ -16,13 +16,27 @@
     color: var(--clr-black-900);
 }
 
-.home-icon {
+.home-icon,
+.sidebar-icon {
     position: fixed;
     top: 1rem;
     right: 1rem;
     border-radius: 50% !important;
-    -webkit-border-radius: 50% !important;
-    -moz-border-radius: 50% !important;
-    -ms-border-radius: 50% !important;
-    -o-border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--clr-react-official);
+    cursor: pointer;
+    color: var(--clr-white-900);
+    font-size: 1.25rem;
+}
+
+
+.sidebar-icon {
+    top: 5rem;
 }

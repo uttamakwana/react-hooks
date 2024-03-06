@@ -1,5 +1,6 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Hero } from "../../components";
+
 
 const UseEffect = () => {
   const [currentTab, setCurrentTab] = useState(() => "Nothing happens");
@@ -40,14 +41,10 @@ const UseEffect = () => {
 
   return (
     <div className="hook-container use-effect-hook-container | text-center flex-col gap-1">
-      <h1 className="| fs-heading fw-900">
-        useEffect <i>hook</i>
-      </h1>
-      <p className="| fs-subheading">
-        We will understand{" "}
-        <q className="| fw-600 text-react ff-manrope">useEffect</q> by making a
-        request to the endpoint of API.
-      </p>
+      <Hero
+        hookName={"useEffect"}
+        heroText={"by making a request to the endpoint of API."}
+      />
       <div className="| flex-center gap-1">
         <button
           className="btn"

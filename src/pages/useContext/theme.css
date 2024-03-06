@@ -1,0 +1,21 @@
+.theme-box.light {
+  background-color: var(--clr-white-600);
+  color: var(--clr-black-900);
+}
+
+.theme-box.dark {
+  color: var(--clr-white-600);
+  background: var(--clr-black-900);
+}
+
+.theme-toggle-btn {
+  background: var(--clr-react-official);
+  padding: 1rem;
+  border-radius: 100vmax;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 100vmax;
+  -moz-border-radius: 100vmax;
+  -ms-border-radius: 100vmax;
+  -o-border-radius: 100vmax;
+}
