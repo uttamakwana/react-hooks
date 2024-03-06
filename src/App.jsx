@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
-import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback } from "./pages";
+import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
 
@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/useRef" element={<UseRef />} />
         <Route path="/useMemo" element={<UseMemo />} />
         <Route path="/useCallback" element={<UseCallback />} />
+        <Route path="/useReducer" element={<UseReducer />} />
       </Routes>
       {pathname !== "/" && (
         <>
