@@ -7,6 +7,14 @@
     font-family: "Inter", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 .app {
     min-height: 100svh;
     display: flex;

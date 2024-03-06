@@ -4,5 +4,6 @@ import UseEffect from "./useEffect/useEffect.jsx";
 import UseContext from "./useContext/useContext.jsx";
 import UseRef from "./useRef/useRef.jsx";
 import UseMemo from "./useMemo/useMemo.jsx";
+import UseCallback from "./useCallback/useCallback.jsx";
 
-export { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo }
+export { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback }
