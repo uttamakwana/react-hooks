@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
-import { Landing, UseState, UseEffect, UseContext, UseRef } from "./pages";
+import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
 
@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/useEffect" element={<UseEffect />} />
         <Route path="/useContext" element={<UseContext />} />
         <Route path="/useRef" element={<UseRef />} />
+        <Route path="/useMemo" element={<UseMemo />} />
       </Routes>
       {pathname !== "/" && (
         <>
