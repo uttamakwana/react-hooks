@@ -470,3 +470,11 @@
 .text-black-900 {
   color: var(--clr-black-900);
 }
+
+.text-react {
+  color: var(--clr-react-official);
+}
+
+.bg-react {
+  background-color: var(--clr-react-official);
+}

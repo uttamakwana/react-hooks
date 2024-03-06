@@ -626,6 +626,10 @@
     border: none;
     outline: none;
     border-radius: var(--border-radius);
+    background-color: var(--clr-white-600);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: clamp(.9rem, 2vw, 1.09rem);
   }
   
   .underline {

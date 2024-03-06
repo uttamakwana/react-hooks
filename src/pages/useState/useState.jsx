@@ -29,7 +29,7 @@ const UseState = () => {
       </h1>
       <p className="| fs-subheading">
         We will understand{" "}
-        <q className="| fw-600 text-info ff-manrope">useState</q> by
+        <q className="| fw-600 text-react ff-manrope">useState</q> by
         implementing incrementing and decrementing a number/counter.
       </p>
       <div className="flex-center gap-1">
