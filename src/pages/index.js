@@ -7,6 +7,7 @@ import UseMemo from "./useMemo/useMemo.jsx";
 import UseCallback from "./useCallback/useCallback.jsx";
 import UseReducer from "./useReducer/useReducer.jsx";
 import UseTransition from "./useTransition/useTransition.jsx";
+import UseDeferredValue from "./useDeferredValue/useDeferredValue.jsx";
 
 export {
   Landing,
@@ -17,5 +18,6 @@ export {
   UseMemo,
   UseCallback,
   UseReducer,
-  UseTransition
+  UseTransition,
+  UseDeferredValue
 };
