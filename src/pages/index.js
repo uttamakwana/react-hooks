@@ -6,5 +6,16 @@ import UseRef from "./useRef/useRef.jsx";
 import UseMemo from "./useMemo/useMemo.jsx";
 import UseCallback from "./useCallback/useCallback.jsx";
 import UseReducer from "./useReducer/useReducer.jsx";
+import UseTransition from "./useTransition/useTransition.jsx";
 
-export { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer }
+export {
+  Landing,
+  UseState,
+  UseEffect,
+  UseContext,
+  UseRef,
+  UseMemo,
+  UseCallback,
+  UseReducer,
+  UseTransition
+};
