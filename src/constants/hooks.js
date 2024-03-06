@@ -1,4 +1,4 @@
-export const hooks = [
+export const hooksArr = [
   "useState",
   "useEffect",
   "useContext",
@@ -17,3 +17,10 @@ export const hooks = [
   "useFormStatus",
   "useOptimistic",
 ];
+
+export const hooks = hooksArr.map((hook, index) => ({
+  name: hook,
+  codeUrl: `https://github.com/uttamakwana/react-hooks/blob/main/src/pages/${hook}/${hook}.jsx`,
+  reactDoc: `https://react.dev/reference/react/${hook}`,
+  id: index + 1,
+}));
