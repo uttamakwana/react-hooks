@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
-import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer, UseTransition, UseDeferredValue } from "./pages";
+import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer, UseTransition, UseDeferredValue, UseLayoutEffect } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
 
@@ -24,6 +24,7 @@ const App = () => {
         <Route path="/useReducer" element={<UseReducer />} />
         <Route path="/useTransition" element={<UseTransition />} />
         <Route path="/useDeferredValue" element={<UseDeferredValue />} />
+        <Route path="/useLayoutEffect" element={<UseLayoutEffect />} />
       </Routes>
       {pathname !== "/" && (
         <>

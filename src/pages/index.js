@@ -8,6 +8,7 @@ import UseCallback from "./useCallback/useCallback.jsx";
 import UseReducer from "./useReducer/useReducer.jsx";
 import UseTransition from "./useTransition/useTransition.jsx";
 import UseDeferredValue from "./useDeferredValue/useDeferredValue.jsx";
+import UseLayoutEffect from "./useLayoutEffect/useLayoutEffect.jsx";
 
 export {
   Landing,
@@ -19,5 +20,6 @@ export {
   UseCallback,
   UseReducer,
   UseTransition,
-  UseDeferredValue
+  UseDeferredValue,
+  UseLayoutEffect
 };
