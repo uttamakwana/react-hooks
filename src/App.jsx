@@ -1,5 +1,5 @@
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
-import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer, UseTransition, UseDeferredValue, UseLayoutEffect, UseDebugValue, UseImperativeHandle } from "./pages";
+import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer, UseTransition, UseDeferredValue, UseLayoutEffect, UseDebugValue, UseImperativeHandle, UseId } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
 
@@ -26,7 +26,8 @@ const App = () => {
         <Route path="/useDeferredValue" element={<UseDeferredValue />} />
         <Route path="/useLayoutEffect" element={<UseLayoutEffect />} />
         <Route path="/useDebugValue" element={<UseDebugValue />} />
-        <Route path="/useImperativeHandle" element={<UseImperativeHandle />} />
+        <Route path="/useImperativeHandle" element={<UseImperativeHandle />} /> 
+        <Route path="/useId" element={<UseId />} /> 
       </Routes>
       {pathname !== "/" && (
         <>

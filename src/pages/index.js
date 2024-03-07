@@ -11,6 +11,7 @@ import UseDeferredValue from "./useDeferredValue/useDeferredValue.jsx";
 import UseLayoutEffect from "./useLayoutEffect/useLayoutEffect.jsx";
 import UseDebugValue from "./useDebugValue/useDebugValue.jsx";
 import UseImperativeHandle from "./useImperativeHandle/useImperativeHandle.jsx";
+import UseId from "./useId/useId.jsx";
 
 export {
   Landing,
@@ -25,5 +26,6 @@ export {
   UseDeferredValue,
   UseLayoutEffect,
   UseDebugValue,
-  UseImperativeHandle
+  UseImperativeHandle,
+  UseId
 };
