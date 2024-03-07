@@ -17,7 +17,8 @@ export const hooksArr = [
   // "useFormStatus",
   // "useOptimistic",
   "useLocalStorage",
-  "useToggle"
+  "useToggle",
+  "useTimeout"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({
