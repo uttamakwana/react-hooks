@@ -17,6 +17,7 @@ import UseLocalStorage from "./useLocalStorage/useLocalStorage.jsx";
 import UseToggle from "./useToggle/useToggle.jsx";
 import UseTimeout from "./useTimeout/useTimeout.jsx";
 import UseDebounce from "./useDebounce/useDebounce.jsx";
+import UseAdvancedEffect from "./useAdvancedEffect/useAdvancedEffect.jsx";
 
 export {
   Landing,
@@ -36,5 +37,6 @@ export {
   UseLocalStorage,
   UseToggle,
   UseTimeout,
-  UseDebounce
+  UseDebounce,
+  UseAdvancedEffect
 };
