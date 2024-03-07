@@ -18,7 +18,8 @@ export const hooksArr = [
   // "useOptimistic",
   "useLocalStorage",
   "useToggle",
-  "useTimeout"
+  "useTimeout",
+  "useDebounce"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

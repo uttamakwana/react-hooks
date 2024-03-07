@@ -16,6 +16,7 @@ import UseId from "./useId/useId.jsx";
 import UseLocalStorage from "./useLocalStorage/useLocalStorage.jsx";
 import UseToggle from "./useToggle/useToggle.jsx";
 import UseTimeout from "./useTimeout/useTimeout.jsx";
+import UseDebounce from "./useDebounce/useDebounce.jsx";
 
 export {
   Landing,
@@ -34,5 +35,6 @@ export {
   UseId,
   UseLocalStorage,
   UseToggle,
-  UseTimeout
+  UseTimeout,
+  UseDebounce
 };
