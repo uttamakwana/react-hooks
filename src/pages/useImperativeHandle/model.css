@@ -1,0 +1,5 @@
+.use-imperative-handle-hook-container .model button:focus {
+  background: var(--clr-black-900);
+  color: var(--clr-react-official);
+  text-transform: uppercase;
+}

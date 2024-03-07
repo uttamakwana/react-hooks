@@ -10,6 +10,7 @@ import UseTransition from "./useTransition/useTransition.jsx";
 import UseDeferredValue from "./useDeferredValue/useDeferredValue.jsx";
 import UseLayoutEffect from "./useLayoutEffect/useLayoutEffect.jsx";
 import UseDebugValue from "./useDebugValue/useDebugValue.jsx";
+import UseImperativeHandle from "./useImperativeHandle/useImperativeHandle.jsx";
 
 export {
   Landing,
@@ -23,5 +24,6 @@ export {
   UseTransition,
   UseDeferredValue,
   UseLayoutEffect,
-  UseDebugValue
+  UseDebugValue,
+  UseImperativeHandle
 };
