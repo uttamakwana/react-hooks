@@ -20,6 +20,7 @@ import {
   UseDebounce,
   UseAdvancedEffect,
   UseArray,
+  UsePrevious,
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -55,6 +56,7 @@ const App = () => {
         <Route path="/useDebounce" element={<UseDebounce />} />
         <Route path="/useAdvancedEffect" element={<UseAdvancedEffect />} />
         <Route path="/useArray" element={<UseArray />} />
+        <Route path="/usePrevious" element={<UsePrevious />} />
       </Routes>
       {pathname !== "/" && (
         <>

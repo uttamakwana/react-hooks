@@ -19,6 +19,7 @@ import UseTimeout from "./useTimeout/useTimeout.jsx";
 import UseDebounce from "./useDebounce/useDebounce.jsx";
 import UseAdvancedEffect from "./useAdvancedEffect/useAdvancedEffect.jsx";
 import UseArray from "./useArray/useArray.jsx";
+import UsePrevious from "./usePrevious/usePrevious.jsx";
 
 export {
   Landing,
@@ -40,5 +41,6 @@ export {
   UseTimeout,
   UseDebounce,
   UseAdvancedEffect,
-  UseArray
+  UseArray,
+  UsePrevious
 };
