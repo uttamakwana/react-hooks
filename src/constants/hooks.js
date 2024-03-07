@@ -12,10 +12,11 @@ export const hooksArr = [
   "useDebugValue",
   "useImperativeHandle",
   "useId",
-  "useEffectEvent",
-  "use",
-  "useFormStatus",
-  "useOptimistic",
+  // "useEffectEvent",
+  // "use",
+  // "useFormStatus",
+  // "useOptimistic",
+  "useLocalStorage",
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

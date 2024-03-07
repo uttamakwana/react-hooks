@@ -12,6 +12,8 @@ import UseLayoutEffect from "./useLayoutEffect/useLayoutEffect.jsx";
 import UseDebugValue from "./useDebugValue/useDebugValue.jsx";
 import UseImperativeHandle from "./useImperativeHandle/useImperativeHandle.jsx";
 import UseId from "./useId/useId.jsx";
+// custom hooks
+import UseLocalStorage from "./useLocalStorage/useLocalStorage.jsx";
 
 export {
   Landing,
@@ -27,5 +29,6 @@ export {
   UseLayoutEffect,
   UseDebugValue,
   UseImperativeHandle,
-  UseId
+  UseId,
+  UseLocalStorage
 };
