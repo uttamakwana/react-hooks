@@ -14,6 +14,7 @@ import UseImperativeHandle from "./useImperativeHandle/useImperativeHandle.jsx";
 import UseId from "./useId/useId.jsx";
 // custom hooks
 import UseLocalStorage from "./useLocalStorage/useLocalStorage.jsx";
+import UseToggle from "./useToggle/useToggle.jsx";
 
 export {
   Landing,
@@ -30,5 +31,6 @@ export {
   UseDebugValue,
   UseImperativeHandle,
   UseId,
-  UseLocalStorage
+  UseLocalStorage,
+  UseToggle
 };
