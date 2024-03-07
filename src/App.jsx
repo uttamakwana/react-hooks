@@ -1,5 +1,26 @@
 import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
-import { Landing, UseState, UseEffect, UseContext, UseRef, UseMemo, UseCallback, UseReducer, UseTransition, UseDeferredValue, UseLayoutEffect, UseDebugValue, UseImperativeHandle, UseId, UseLocalStorage, UseToggle, UseTimeout, UseDebounce, UseAdvancedEffect } from "./pages";
+import {
+  Landing,
+  UseState,
+  UseEffect,
+  UseContext,
+  UseRef,
+  UseMemo,
+  UseCallback,
+  UseReducer,
+  UseTransition,
+  UseDeferredValue,
+  UseLayoutEffect,
+  UseDebugValue,
+  UseImperativeHandle,
+  UseId,
+  UseLocalStorage,
+  UseToggle,
+  UseTimeout,
+  UseDebounce,
+  UseAdvancedEffect,
+  UseArray,
+} from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
 
@@ -26,14 +47,14 @@ const App = () => {
         <Route path="/useDeferredValue" element={<UseDeferredValue />} />
         <Route path="/useLayoutEffect" element={<UseLayoutEffect />} />
         <Route path="/useDebugValue" element={<UseDebugValue />} />
-        <Route path="/useImperativeHandle" element={<UseImperativeHandle />} /> 
-        <Route path="/useId" element={<UseId />} /> 
-        <Route path="/useLocalStorage" element={<UseLocalStorage />} /> 
-        <Route path="/useToggle" element={<UseToggle />} /> 
-        <Route path="/useTimeout" element={<UseTimeout />} /> 
-        <Route path="/useDebounce" element={<UseDebounce />} /> 
-        <Route path="/useAdvancedEffect" element={<UseAdvancedEffect />} /> 
-        
+        <Route path="/useImperativeHandle" element={<UseImperativeHandle />} />
+        <Route path="/useId" element={<UseId />} />
+        <Route path="/useLocalStorage" element={<UseLocalStorage />} />
+        <Route path="/useToggle" element={<UseToggle />} />
+        <Route path="/useTimeout" element={<UseTimeout />} />
+        <Route path="/useDebounce" element={<UseDebounce />} />
+        <Route path="/useAdvancedEffect" element={<UseAdvancedEffect />} />
+        <Route path="/useArray" element={<UseArray />} />
       </Routes>
       {pathname !== "/" && (
         <>

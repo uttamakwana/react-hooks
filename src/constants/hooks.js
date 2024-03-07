@@ -20,7 +20,8 @@ export const hooksArr = [
   "useToggle",
   "useTimeout",
   "useDebounce",
-  "useAdvancedEffect"
+  "useAdvancedEffect",
+  "useArray"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({
