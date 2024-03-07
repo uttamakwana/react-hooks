@@ -21,6 +21,7 @@ import {
   UseAdvancedEffect,
   UseArray,
   UsePrevious,
+  UseHistory,
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -57,6 +58,7 @@ const App = () => {
         <Route path="/useAdvancedEffect" element={<UseAdvancedEffect />} />
         <Route path="/useArray" element={<UseArray />} />
         <Route path="/usePrevious" element={<UsePrevious />} />
+        <Route path="/useHistory" element={<UseHistory />} />
       </Routes>
       {pathname !== "/" && (
         <>

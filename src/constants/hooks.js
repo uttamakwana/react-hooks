@@ -22,7 +22,8 @@ export const hooksArr = [
   "useDebounce",
   "useAdvancedEffect",
   "useArray",
-  "usePrevious"
+  "usePrevious",
+  "useHistory"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({
