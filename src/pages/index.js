@@ -9,6 +9,7 @@ import UseReducer from "./useReducer/useReducer.jsx";
 import UseTransition from "./useTransition/useTransition.jsx";
 import UseDeferredValue from "./useDeferredValue/useDeferredValue.jsx";
 import UseLayoutEffect from "./useLayoutEffect/useLayoutEffect.jsx";
+import UseDebugValue from "./useDebugValue/useDebugValue.jsx";
 
 export {
   Landing,
@@ -21,5 +22,6 @@ export {
   UseReducer,
   UseTransition,
   UseDeferredValue,
-  UseLayoutEffect
+  UseLayoutEffect,
+  UseDebugValue
 };
