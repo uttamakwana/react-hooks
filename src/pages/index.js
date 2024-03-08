@@ -22,6 +22,7 @@ import UseArray from "./useArray/useArray.jsx";
 import UsePrevious from "./usePrevious/usePrevious.jsx";
 import UseHistory from "./useHistory/useHistory.jsx";
 import UseAsync from "./useAsync/useAsync.jsx";
+import UseFetch from "./useFetch/useFetch.jsx";
 
 export {
   Landing,
@@ -46,5 +47,6 @@ export {
   UseArray,
   UsePrevious,
   UseHistory,
-  UseAsync
+  UseAsync,
+  UseFetch
 };

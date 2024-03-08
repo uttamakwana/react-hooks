@@ -23,6 +23,7 @@ import {
   UsePrevious,
   UseHistory,
   UseAsync,
+  UseFetch,
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -61,6 +62,7 @@ const App = () => {
         <Route path="/usePrevious" element={<UsePrevious />} />
         <Route path="/useHistory" element={<UseHistory />} />
         <Route path="/useAsync" element={<UseAsync />} />
+        <Route path="/useFetch" element={<UseFetch />} />
       </Routes>
       {pathname !== "/" && (
         <>

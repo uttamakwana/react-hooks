@@ -24,7 +24,8 @@ export const hooksArr = [
   "useArray",
   "usePrevious",
   "useHistory",
-  "useAsync"
+  "useAsync",
+  "useFetch"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({
