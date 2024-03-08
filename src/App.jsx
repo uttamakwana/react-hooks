@@ -25,7 +25,8 @@ import {
   UseAsync,
   UseFetch,
   UseEventListener,
-  UseOnScreen
+  UseOnScreen,
+  UseWindow
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -67,6 +68,7 @@ const App = () => {
         <Route path="/useFetch" element={<UseFetch />} />
         <Route path="/useEventListener" element={<UseEventListener />} />
         <Route path="/useOnScreen" element={<UseOnScreen />} />
+        <Route path="/useWindow" element={<UseWindow />} />
       </Routes>
       {pathname !== "/" && (
         <>

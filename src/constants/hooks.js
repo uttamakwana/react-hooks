@@ -27,7 +27,8 @@ export const hooksArr = [
   "useAsync",
   "useFetch",
   "useEventListener",
-  "useOnScreen"
+  "useOnScreen",
+  "useWindow"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({
