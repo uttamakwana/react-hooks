@@ -35,6 +35,7 @@ export const hooksArr = [
   "useCopy",
   "useCookie",
   "useHover",
+  "useLongPress",
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

@@ -32,7 +32,8 @@ import {
   UseClickOutside,
   UseCopy,
   UseCookie,
-  UseHover
+  UseHover,
+  UseLongPress
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -81,6 +82,7 @@ const App = () => {
         <Route path="/useCopy" element={<UseCopy />} />
         <Route path="/useCookie" element={<UseCookie />} />
         <Route path="/useHover" element={<UseHover />} />
+        <Route path="/useLongPress" element={<UseLongPress />} />
       </Routes>
       {pathname !== "/" && (
         <>
