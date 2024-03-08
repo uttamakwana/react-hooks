@@ -23,6 +23,7 @@ import UsePrevious from "./usePrevious/usePrevious.jsx";
 import UseHistory from "./useHistory/useHistory.jsx";
 import UseAsync from "./useAsync/useAsync.jsx";
 import UseFetch from "./useFetch/useFetch.jsx";
+import UseEventListener from "./useEventListener/useEventListener.jsx";
 
 export {
   Landing,
@@ -48,5 +49,6 @@ export {
   UsePrevious,
   UseHistory,
   UseAsync,
-  UseFetch
+  UseFetch,
+  UseEventListener
 };

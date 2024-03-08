@@ -24,6 +24,7 @@ import {
   UseHistory,
   UseAsync,
   UseFetch,
+  UseEventListener
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -63,6 +64,7 @@ const App = () => {
         <Route path="/useHistory" element={<UseHistory />} />
         <Route path="/useAsync" element={<UseAsync />} />
         <Route path="/useFetch" element={<UseFetch />} />
+        <Route path="/useEventListener" element={<UseEventListener />} />
       </Routes>
       {pathname !== "/" && (
         <>
