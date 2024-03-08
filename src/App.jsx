@@ -27,7 +27,8 @@ import {
   UseEventListener,
   UseOnScreen,
   UseWindow,
-  UseValidation
+  UseValidation,
+  UseSize
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -71,6 +72,7 @@ const App = () => {
         <Route path="/useOnScreen" element={<UseOnScreen />} />
         <Route path="/useWindow" element={<UseWindow />} />
         <Route path="/useValidation" element={<UseValidation />} />
+        <Route path="/useSize" element={<UseSize />} />
       </Routes>
       {pathname !== "/" && (
         <>

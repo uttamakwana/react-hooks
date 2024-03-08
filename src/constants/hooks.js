@@ -29,7 +29,8 @@ export const hooksArr = [
   "useEventListener",
   "useOnScreen",
   "useWindow",
-  "useValidation"
+  "useValidation",
+  "useSize"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

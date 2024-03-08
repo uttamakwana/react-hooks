@@ -27,6 +27,7 @@ import UseEventListener from "./useEventListener/useEventListener.jsx";
 import UseOnScreen from "./useOnScreen/useOnScreen.jsx";
 import UseWindow from "./useWindow/useWindow.jsx";
 import UseValidation from "./useValidation/useValidation.jsx";
+import UseSize from "./useSize/useSize.jsx";
 
 
 export {
@@ -57,5 +58,6 @@ export {
   UseEventListener,
   UseOnScreen,
   UseWindow,
-  UseValidation
+  UseValidation,
+  UseSize
 };
