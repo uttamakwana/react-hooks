@@ -28,7 +28,8 @@ export const hooksArr = [
   "useFetch",
   "useEventListener",
   "useOnScreen",
-  "useWindow"
+  "useWindow",
+  "useValidation"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

@@ -26,7 +26,8 @@ import {
   UseFetch,
   UseEventListener,
   UseOnScreen,
-  UseWindow
+  UseWindow,
+  UseValidation
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -69,6 +70,7 @@ const App = () => {
         <Route path="/useEventListener" element={<UseEventListener />} />
         <Route path="/useOnScreen" element={<UseOnScreen />} />
         <Route path="/useWindow" element={<UseWindow />} />
+        <Route path="/useValidation" element={<UseValidation />} />
       </Routes>
       {pathname !== "/" && (
         <>

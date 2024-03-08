@@ -26,6 +26,7 @@ import UseFetch from "./useFetch/useFetch.jsx";
 import UseEventListener from "./useEventListener/useEventListener.jsx";
 import UseOnScreen from "./useOnScreen/useOnScreen.jsx";
 import UseWindow from "./useWindow/useWindow.jsx";
+import UseValidation from "./useValidation/useValidation.jsx";
 
 
 export {
@@ -55,5 +56,6 @@ export {
   UseFetch,
   UseEventListener,
   UseOnScreen,
-  UseWindow
+  UseWindow,
+  UseValidation
 };
