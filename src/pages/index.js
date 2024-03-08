@@ -29,6 +29,7 @@ import UseWindow from "./useWindow/useWindow.jsx";
 import UseValidation from "./useValidation/useValidation.jsx";
 import UseSize from "./useSize/useSize.jsx";
 import UseClickOutside from "./useClickOutside/useClickOutside.jsx";
+import UseCopy from "./useCopy/useCopy.jsx";
 
 
 export {
@@ -61,5 +62,6 @@ export {
   UseWindow,
   UseValidation,
   UseSize,
-  UseClickOutside
+  UseClickOutside,
+  UseCopy
 };

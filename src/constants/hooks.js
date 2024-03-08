@@ -31,7 +31,8 @@ export const hooksArr = [
   "useWindow",
   "useValidation",
   "useSize",
-  "useClickOutside"
+  "useClickOutside",
+  "useCopy"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({
