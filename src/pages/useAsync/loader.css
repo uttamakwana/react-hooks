@@ -1,0 +1,22 @@
+.spinner {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border-left: 2px solid royalblue;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: spin linear 400ms infinite;
+  -webkit-animation: spin linear 400ms infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+}
+}

@@ -21,6 +21,7 @@ import UseAdvancedEffect from "./useAdvancedEffect/useAdvancedEffect.jsx";
 import UseArray from "./useArray/useArray.jsx";
 import UsePrevious from "./usePrevious/usePrevious.jsx";
 import UseHistory from "./useHistory/useHistory.jsx";
+import UseAsync from "./useAsync/useAsync.jsx";
 
 export {
   Landing,
@@ -44,5 +45,6 @@ export {
   UseAdvancedEffect,
   UseArray,
   UsePrevious,
-  UseHistory
+  UseHistory,
+  UseAsync
 };

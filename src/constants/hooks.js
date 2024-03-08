@@ -23,7 +23,8 @@ export const hooksArr = [
   "useAdvancedEffect",
   "useArray",
   "usePrevious",
-  "useHistory"
+  "useHistory",
+  "useAsync"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

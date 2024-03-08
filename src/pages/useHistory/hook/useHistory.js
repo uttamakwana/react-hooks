@@ -4,9 +4,10 @@ export function useHistory(
   defaultValue,
   { capacity = 10 } = {}
 ) {
-  const [value, setValue] = useState(defaultValue);
+  const [value, setValue] = useState(() => defaultValue);
   const historyRef = useRef([value]);
   const pointerRef = useRef(0);
+  console.log(historyRef.current);
 
   const set = useCallback(
     (v) => {
