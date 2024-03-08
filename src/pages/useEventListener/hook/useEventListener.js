@@ -6,11 +6,11 @@ export function useEventListener(eventType, callback, element = window) {
   useEffect(() => {
     callbackRef.current = callback;
   }, [callback]);
-  
+
   useEffect(() => {
     const handler = (e) => callbackRef.current(e);
     element.addEventListener(eventType, handler);
 
     return () => element.removeEventListener(eventType, handler);
-  });
+  }, [eventType, element]);
 }

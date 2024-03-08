@@ -30,7 +30,8 @@ export const hooksArr = [
   "useOnScreen",
   "useWindow",
   "useValidation",
-  "useSize"
+  "useSize",
+  "useClickOutside"
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

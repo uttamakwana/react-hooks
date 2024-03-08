@@ -28,6 +28,7 @@ import UseOnScreen from "./useOnScreen/useOnScreen.jsx";
 import UseWindow from "./useWindow/useWindow.jsx";
 import UseValidation from "./useValidation/useValidation.jsx";
 import UseSize from "./useSize/useSize.jsx";
+import UseClickOutside from "./useClickOutside/useClickOutside.jsx";
 
 
 export {
@@ -59,5 +60,6 @@ export {
   UseOnScreen,
   UseWindow,
   UseValidation,
-  UseSize
+  UseSize,
+  UseClickOutside
 };

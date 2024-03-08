@@ -28,7 +28,8 @@ import {
   UseOnScreen,
   UseWindow,
   UseValidation,
-  UseSize
+  UseSize,
+  UseClickOutside
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -73,6 +74,7 @@ const App = () => {
         <Route path="/useWindow" element={<UseWindow />} />
         <Route path="/useValidation" element={<UseValidation />} />
         <Route path="/useSize" element={<UseSize />} />
+        <Route path="/useClickOutside" element={<UseClickOutside />} />
       </Routes>
       {pathname !== "/" && (
         <>
