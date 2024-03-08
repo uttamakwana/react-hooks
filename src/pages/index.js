@@ -24,6 +24,8 @@ import UseHistory from "./useHistory/useHistory.jsx";
 import UseAsync from "./useAsync/useAsync.jsx";
 import UseFetch from "./useFetch/useFetch.jsx";
 import UseEventListener from "./useEventListener/useEventListener.jsx";
+import UseOnScreen from "./useOnScreen/useOnScreen.jsx";
+
 
 export {
   Landing,
@@ -50,5 +52,6 @@ export {
   UseHistory,
   UseAsync,
   UseFetch,
-  UseEventListener
+  UseEventListener,
+  UseOnScreen
 };
