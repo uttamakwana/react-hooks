@@ -30,6 +30,7 @@ import UseValidation from "./useValidation/useValidation.jsx";
 import UseSize from "./useSize/useSize.jsx";
 import UseClickOutside from "./useClickOutside/useClickOutside.jsx";
 import UseCopy from "./useCopy/useCopy.jsx";
+import UseCookie from "./useCookie/useCookie.jsx";
 
 
 export {
@@ -63,5 +64,6 @@ export {
   UseValidation,
   UseSize,
   UseClickOutside,
-  UseCopy
+  UseCopy,
+  UseCookie
 };

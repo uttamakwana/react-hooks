@@ -30,7 +30,8 @@ import {
   UseValidation,
   UseSize,
   UseClickOutside,
-  UseCopy
+  UseCopy,
+  UseCookie
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -77,6 +78,7 @@ const App = () => {
         <Route path="/useSize" element={<UseSize />} />
         <Route path="/useClickOutside" element={<UseClickOutside />} />
         <Route path="/useCopy" element={<UseCopy />} />
+        <Route path="/useCookie" element={<UseCookie />} />
       </Routes>
       {pathname !== "/" && (
         <>
