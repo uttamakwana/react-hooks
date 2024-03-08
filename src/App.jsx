@@ -31,7 +31,8 @@ import {
   UseSize,
   UseClickOutside,
   UseCopy,
-  UseCookie
+  UseCookie,
+  UseHover
 } from "./pages";
 import { FaBars, FaHome } from "react-icons/fa";
 import { Sidebar } from "./components";
@@ -79,6 +80,7 @@ const App = () => {
         <Route path="/useClickOutside" element={<UseClickOutside />} />
         <Route path="/useCopy" element={<UseCopy />} />
         <Route path="/useCookie" element={<UseCookie />} />
+        <Route path="/useHover" element={<UseHover />} />
       </Routes>
       {pathname !== "/" && (
         <>

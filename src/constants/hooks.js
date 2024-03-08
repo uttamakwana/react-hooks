@@ -34,6 +34,7 @@ export const hooksArr = [
   "useClickOutside",
   "useCopy",
   "useCookie",
+  "useHover",
 ];
 
 export const hooks = hooksArr.map((hook, index) => ({

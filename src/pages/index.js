@@ -31,6 +31,7 @@ import UseSize from "./useSize/useSize.jsx";
 import UseClickOutside from "./useClickOutside/useClickOutside.jsx";
 import UseCopy from "./useCopy/useCopy.jsx";
 import UseCookie from "./useCookie/useCookie.jsx";
+import UseHover from "./useHover/useHover.jsx";
 
 
 export {
@@ -66,4 +67,5 @@ export {
   UseClickOutside,
   UseCopy,
   UseCookie
+  ,UseHover
 };
